@@ -1,0 +1,282 @@
+/* รีเซ็ตสไตล์เริ่มต้น */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ตัวแปร CSS */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+nav{
+    margin: 0 10px;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  margin-left: auto;
+}
+
+nav a{
+    margin: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    align-items: center;
+}
+
+
+/* ส่วนหัว */
+header {
+    background-color: #f39f9f;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+   justify-content: center;
+
+}
+
+header img{
+    max-height: 50px;
+    margin-top: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+
+header h1 {
+    text-align: center;
+    margin-top: 20px;
+    padding-right: 20px;
+}
+
+
+/* เนื้อหาหลัก */
+main {
+    padding: 20px;
+}
+
+/* ส่วนย่อย "hero" */
+.hero {
+    background-color: #f7f7f7;
+    padding: 50px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.hero a {
+    display: inline-block;
+    padding: 10px 15px;
+    border: 1px solid #000;
+    color: #000;
+    text-decoration: none;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+ .hero a:hover { 
+    background-color: #000000;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ส่วนย่อย "services" */
+ .services { 
+    padding: 50px 0;
+    
+} 
+
+  .services h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: none;
+}  
+
+.services ul {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-decoration: none;
+} 
+
+.services li { 
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    width: 300px;
+    text-decoration: none;
+} 
+
+.services li img { 
+    display: block;
+    margin: 0 auto;
+    max-width: 100px;
+    
+} 
+
+ .services li h3 {
+    margin-top: 10px;
+    
+} 
+ 
+
+
+
+/* ---------------2------------------- */
+
+.container1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/* ตัวแปร CSS */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+
+/* เพิ่มกรอบรูปภาพ */
+.container1 img {
+    border: 1px solid #ddd;
+}
+
+/* เพิ่มเงาให้รูปภาพ */
+.container1 img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+
+
+/* ---------------4---------------- */
+
+
+/* ตัวแปร CSS */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+/* รูปภาพ */
+    .container {
+    text-align: center;
+    padding: 20px;
+}
+
+.container img {
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+/* ตัวอย่างเพิ่มเติม */
+
+/* ปรับขนาดรูปภาพ */
+.container img {
+    width: 300px; /* เปลี่ยนค่าความกว้างตามต้องการ */
+   
+    
+}
+
+/* เพิ่มกรอบรูปภาพ */
+.container img {
+    border: 1px solid #ddd;
+}
+
+/* เพิ่มเงาให้รูปภาพ */
+.container img {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* ปรับแต่งเพิ่มเติม */
+
+.container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.container p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* เพิ่มเติมสำหรับรูปภาพประกอบการจองคิว */
+
+.container img {
+    border-radius: 10px; /* เพิ่มมุมโค้งมนให้รูปภาพ */
+}
+
+.container h1 {
+    color: #222; /* เปลี่ยนสีหัวข้อ */
+}
+
+.container p {
+    color: #666; /* เปลี่ยนสีข้อความ */
+}
+.p1{
+    display: flex;
+   justify-content: center;
+}
+/* ---------3---------- */
+
+.c{
+    max-width: 1000px;
+    display: block;
+    margin: 0 auto;
+}
+
+.c {
+    text-align: center;
+    padding: 20px;
+}
+
+
+/* ปรับแต่งเพิ่มเติม */
+
+.c h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.c p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* เพิ่มเติมสำหรับรูปภาพประกอบการจองคิว */
+
+
+.c h1 {
+    color: #222; /* เปลี่ยนสีหัวข้อ */
+}
+
+.c p {
+    color: #666; /* เปลี่ยนสีข้อความ */
+}
+.p{
+    display: flex;
+   justify-content: center;
+}
+
+
+/* ---------111111111111111111111111111111 */
